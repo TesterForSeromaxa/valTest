@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<style>
+  .currency span {
+    cursor: pointer;
+  }
+
+  .currencyList>li{
+    cursor: pointer;
+  }
+</style>
+
+<body>
+
+  <div class="currencyCalculator">
+    <div class="currency">
+      <span>EUR</span>
+      <ul class="currencyList" style="display: none">
+       </ul>
+    </div>
+
+    <p class="value">
+      <span class="currencyFrom">1</span> x <span class="currencyTo">0.44</span>
+    </p>
+
+    <div class="currency">
+      <span>USD</span>
+      <ul class="currencyList" style="display: none">
+       
+      </ul>
+    </div>
+
+    <p class="summary">
+      <span class="give">100</span>
+      <span class="get">44</span>
+    </p>
+    <button type="button">change</button>
+  </div>
+<script src="obol.js"></script>
+  <script src="sistem3.js"></script>
+</body>
+
+</html>
