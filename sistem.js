@@ -63,32 +63,4 @@ function makeList (index){
     }
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// currencyNames.forEach(element => {
-//   element.addEventListener(`click`, function (){
-//     this.nextElementSibling.style.display = `block`;
-//   })
-  
-// });
+/// New coment
